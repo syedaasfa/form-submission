@@ -1,0 +1,79 @@
+body {
+    /* Gradient background from dark red to black to dark orange */
+    background: linear-gradient(135deg, #330000 0%, #000000 50%, #331400 100%);
+    color: #f8f9fa; /* Light text color for readability */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent black background */
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label, label i {
+    color: #d1d1d1; /* Light grey for labels */
+}
+
+.form-control {
+    background-color: #333333; /* Dark input backgrounds */
+    border: none;
+    border-bottom: 2px solid #777; /* Subtle border for inputs */
+    border-radius: 0;
+    color: #ffffff; /* White text color */
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-bottom-color: #b84e00; /* Dark orange focus highlight */
+    background-color: #222222; /* Darker background on focus */
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #b80000, #b84e00); /* Button gradient from dark red to dark orange */
+    border: none;
+    padding: 12px 30px; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+    display: block; 
+    margin: 0 auto; /* Center the button horizontally */
+    width: 50%;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #8f0000, #965c00); /* Darken the button on hover */
+}
+
+
+.invalid-feedback {
+    display: none;
+    margin-top: 5px;
+}
+
+input.is-invalid {
+    border-bottom-color: #ff4500; /* Orange red color for validation errors */
+}
+
+input.is-invalid + .invalid-feedback {
+    display: block;
+    color: #ff4500;
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+}
