@@ -1,4 +1,5 @@
 Project Title: Dynamic Registration Form with Client-Side Validation
+
 Netlify Link : https://661ba8dd8576dc496a14a8c0--darling-chimera-345d23.netlify.app/
 Project Description:
 The goal of this project is to design and implement a user-friendly registration form for a website. The form includes several fields that are essential for collecting user data, such as full name, email address, phone number, and password. It is styled using Bootstrap for a responsive layout and Font Awesome icons for an aesthetically pleasing appearance.
